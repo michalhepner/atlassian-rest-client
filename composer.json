@@ -1,0 +1,21 @@
+{
+    "name": "michalhepner/atlassian-rest-client",
+    "type": "library",
+    "description": "A wrapper library around Atlassian REST client",
+    "require": {
+        "guzzlehttp/guzzle": "^7",
+        "psr/http-message": "^1.0"
+    },
+    "license": "AGPL-3.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "MichalHepner\\AtlassianRestClient\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Michał Hepner",
+            "email": "michal.hepner@gmail.com"
+        }
+    ]
+}
